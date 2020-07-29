@@ -1,0 +1,6 @@
+framework module HTHJWebKit {
+  umbrella header "HTHJWebKit.h"
+
+  export *
+  module * { export * }
+}
