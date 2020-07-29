@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "HTHJWebKit"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.summary = "HTHJWebKit."
   s.license = {"type"=>"MIT", "file"=>"FILE_LICENSE"}
   s.authors = {"C503"=>"123495351@qq.com"}
