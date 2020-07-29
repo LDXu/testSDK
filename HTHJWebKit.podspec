@@ -9,9 +9,7 @@ Pod::Spec.new do |s|
   s.frameworks = ["CoreImage", "Photos", "WebKit", "AVFoundation", "CoreMedia"]
   s.requires_arc = true
   s.source = { :git => "https://github.com/LDXu/testSDK.git", :tag => "#{s.version}" }
-  s.ios.resource_bundle = {
-     'JSResources' => 'ios/HTHJWebKit.embeddedframework/HTHJWebKit.framework/Resources/JSResources.bundle'
-  }
+  s.resource = 'JSResources.bundle'
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/HTHJWebKit.embeddedframework/HTHJWebKit.framework'
   s.dependency "ZLPhotoBrowser" , '3.1.4'
